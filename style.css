@@ -1,0 +1,154 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap');
+.attribution {
+    font-size: 15px;
+    text-align: center;
+    padding: 20px;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
+
+* {
+    font-family: 'Red Hat Display', sans-serif;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: hsl(225, 100%, 94%);
+    margin: 0;
+    padding: 0;
+}
+
+main {
+    width: 100vw;
+    height: 100vh;
+    background: url('pattern-background-desktop.svg') no-repeat top left;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.primary-container {
+    background-color: hsl(225, 100%, 98%);
+    width: 365px;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 20px 30px hsl(225, 71%, 89%);
+}
+
+.hero-img img {
+    width: 365px;
+    border-radius: 15px 15px 0 0;
+}
+
+p {
+    color: hsl(224, 23%, 55%);
+    font-size: 14.5px;
+    line-height: 1.5;
+    text-align: center;
+    margin: 0 25px;
+}
+
+.music-img img {
+    width: 45px;
+    margin: 0 20px 0 5px;
+}
+
+h1 {
+    font-weight: 900;
+    font-size: 25px;
+    color: hsl(223, 47%, 23%);
+    text-align: center;
+    margin: 20px auto;
+}
+
+h3 {
+    font-weight: 900;
+    font-size: 15px;
+    color: hsl(223, 47%, 23%);
+    /* margin: 0; */
+}
+
+h4 {
+    color: hsl(224, 23%, 55%);
+    font-size: 14px;
+    font-weight: 300;
+}
+
+h5 {
+    font-size: 15px;
+    font-weight: 900;
+    color: hsl(245, 75%, 52%);
+    text-decoration-line: underline;
+}
+
+#purple {
+    color: hsl(225, 100%, 98%);
+    background-color: hsl(245, 75%, 52%);
+    text-decoration: none;
+    padding: 13px 0px;
+    margin: 15px auto;
+    border-radius: 10px;
+    width: 300px;
+    font-size: 13.5px;
+    font-weight: 700;
+    text-align: center;
+    box-shadow: 0 20px 20px hsl(225, 71%, 89%);
+}
+
+#grey {
+    color: hsl(224, 23%, 55%);
+    text-decoration: none;
+    font-size: 13.5px;
+    font-weight: 700;
+    margin: 15px auto 30px auto;
+}
+
+.secti {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: hsla(225, 100%, 94%, 0.148);
+    width: 300px;
+    height: 75px;
+    border-radius: 15px;
+    padding: 0 15px;
+    margin: 15px auto;
+}
+
+.left {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+h3,
+h4 {
+    margin: 5px auto;
+}
+
+.buttons {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* height: 100px; */
+}
+
+@media (max-width: 375px) {
+    .hero-img img {
+        width: 320px;
+    }
+    .primary-container {
+        width: 320px;
+    }
+    #purple {
+        width: 275px;
+    }
+}
